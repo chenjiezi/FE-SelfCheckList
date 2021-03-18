@@ -1,8 +1,8 @@
 # JavaScript中的数据类型
 
-基本类型：Number、String、Boolean、Undefined、Null、Symbol（ES6）、BigInt（ES10）
+- 基本类型：Number、String、Boolean、Undefined、Null、Symbol（ES6）、BigInt（ES10）
 
-引用类型：Object
+- 引用类型：Object
 
 ## 基本类型和引用类型有什么区别？
 
