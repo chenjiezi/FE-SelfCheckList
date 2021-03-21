@@ -2,3 +2,4 @@
 
 ### JAVASCRIPT
 - [js中的数据类型](https://github.com/chenjiezi/FE-SelfCheckList/blob/master/JAVASCRIPT/js%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)
+- [EventLoop](https://github.com/chenjiezi/FE-SelfCheckList/blob/master/JAVASCRIPT/js%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)
