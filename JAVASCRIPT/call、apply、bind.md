@@ -1,5 +1,25 @@
 # call、apply、bind
 
+> call、apply、bind 这三个方法的作用是改变this指向。
+
+## 三者有什么区别？
+- 通过下面这个案例得出，相同之处都是改变this指向，不同之处，call apply 的差异是接收传给调用函数的参数形式不同， call apply 和 bind 的差异是call apply 直接调用，而 bind 会返回一个新函数。
+```js
+var obj = {
+    name: 'obj'
+}
+function test (b, c) {
+    this.name = 'test';
+    console.log(this.name, b, c);
+}
+// 分别用 call、apply、bind 将 obj 对象绑定 test 方法的 this 上
+test.call(obj, 'b', 'c'); // obj b c
+test.apply(obj, ['b', 'c']); // obj b c
+var func = test.bind(obj, 'b');
+func('c');  // obj b c
+```
+
+## 实现 call
 ```js
 // call
 Function.prototype.call2 = function (context) {
@@ -17,6 +37,9 @@ Function.prototype.call2 = function (context) {
     delete context.fn;
     return result;
 }
+```
+## 实现 apply
+```js
 // apply
 Function.prototype.apply2 = function (context, arr) {
     context = context || window;
@@ -36,6 +59,9 @@ Function.prototype.apply2 = function (context, arr) {
     delete context.fn;
     return result;
 }
+```
+## 实现 bind
+```js
 // bind(ES5)
 Function.prototype.bind2 = function (context) {
     var self = this;
