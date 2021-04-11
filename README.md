@@ -4,17 +4,17 @@
 - [js中的数据类型](./JAVASCRIPT/js中的数据类型.md)
 - [执行上下文和执行栈](./JAVASCRIPT/执行上下文和执行栈.md)
 - [闭包](./JAVASCRIPT/闭包.md)
-- new 操作符
-- this 指向
-- 原型与原型链
-- 继承
+- [new 操作符](./JAVASCRIPT/new操作符.md)
+- [this 指向](./JAVASCRIPT/this指向.md)
+- [原型与原型链](./JAVASCRIPT/原型与原型链.md)
+- [继承](./JAVASCRIPT/继承.md)
 - [内存泄露、垃圾回收机制](./JAVASCRIPT/内存泄露、垃圾回收机制.md)
 - [事件循环](./JAVASCRIPT/EventLoop.md)
-- 事件、事件委托
-- 普通函数与箭头函数的区别
-- var、let 和 const 的区别
-- 0.1 + 0.2 === 0.3 返回 false
-- defer 与 async 的区别
+- [事件、事件委托](./JAVASCRIPT/事件、事件委托.md)
+- [普通函数与箭头函数的区别](./JAVASCRIPT/普通函数与箭头函数的区别.md)
+- [var、let 和 const 的区别](./JAVASCRIPT/var、let和const的区别.md)
+- [0.1 + 0.2 === 0.3 返回 false](./JAVASCRIPT/0.1+0.2===0.3返回false.md)
+- [defer 与 async 的区别](./JAVASCRIPT/defer与async的区别.md)
 - 其他
   - 跨域
   - 模块化
