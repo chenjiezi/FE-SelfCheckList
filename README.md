@@ -4,8 +4,22 @@
 - [js中的数据类型](https://github.com/chenjiezi/FE-SelfCheckList/blob/master/JAVASCRIPT/js中的数据类型.md)
 - [执行上下文和执行栈](https://github.com/chenjiezi/FE-SelfCheckList/blob/master/JAVASCRIPT/执行上下文和执行栈.md)
 - [闭包](https://github.com/chenjiezi/FE-SelfCheckList/blob/master/JAVASCRIPT/闭包.md)
+- new 操作符
+- this 指向
+- 原型与原型链
+- 继承
 - [内存泄露、垃圾回收机制](https://github.com/chenjiezi/FE-SelfCheckList/blob/master/JAVASCRIPT/内存泄露、垃圾回收机制.md)
 - [事件循环](https://github.com/chenjiezi/FE-SelfCheckList/blob/master/JAVASCRIPT/EventLoop.md)
+- 事件、事件委托
+- 普通函数与箭头函数的区别
+- var、let 和 const 的区别
+- 0.1 + 0.2 === 0.3 返回 false
+- defer 与 async 的区别
+- 其他
+  - 跨域
+  - 模块化
+  - 性能优化
+  - 前端安全
 - 手撕代码 
   - 数组去重、扁平
   - 手写 instanceOf
@@ -25,10 +39,10 @@
 - 元素类型
 - BFC
 - 水平垂直居中
-- flex 布局
-- frid 布局
 - 两列布局(左固定、右自适应)
 - 三列布局(圣杯布局、双飞翼布局)
+- flex 布局
+- frid 布局
 ### 网络协议
 - OSI模型、TCP/IP模型分别由哪些分层组成
 - HTTP
