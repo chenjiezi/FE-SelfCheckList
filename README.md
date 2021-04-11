@@ -12,7 +12,7 @@
 - [事件循环](./JAVASCRIPT/EventLoop.md)
 - [事件、事件委托](./JAVASCRIPT/事件、事件委托.md)
 - [普通函数与箭头函数的区别](./JAVASCRIPT/普通函数与箭头函数的区别.md)
-- [var、let 和 const 的区别](./JAVASCRIPT/var、let和const的区别.md)
+- [var、let 和 const 的区别](./JAVASCRIPT/var、let、const的区别.md)
 - [0.1 + 0.2 === 0.3 返回 false](./JAVASCRIPT/0.1+0.2===0.3返回false.md)
 - [defer 与 async 的区别](./JAVASCRIPT/defer与async的区别.md)
 - 其他
