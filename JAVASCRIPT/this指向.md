@@ -1,0 +1,8 @@
+- **this 永远指向最后调用它的那个对象 **
+- **怎么改变 this 指向**
+  - 在函数内部使用 _this = this
+  - 使用 ES6 的箭头函数
+  - 使用 call、apply、bind
+  - new 实例化一个对象
+- 文献
+  - [this、call、apply、bind](https://juejin.cn/post/6844903496253177863)
