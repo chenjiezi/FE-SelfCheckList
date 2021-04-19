@@ -1,0 +1,32 @@
+- HTTP/0.9
+  - 只支持 GET 请求方法
+  - 只能发送 HTML 格式的文档
+- HTTP/1.0
+  - 新增了请求头和响应头
+  - 支持 GET、POST、HEAD 请求方法
+  - 支持多种类型的文件
+  - 提供了缓存机制（Expires 和 Last-Modified）
+- HTTP/1.1
+  - 新增 OPTIONS、PUT、DELETE、TRACE、CONNECT 请求方法
+  - 引入持久连接（keep-alive）
+  - 缓存机制：在1.0基础上新增了新特性（Cache-Control 和 Etag）
+  - 请求消息和响应消息都支持Host头域：在HTTP1.0中认为每台服务器都绑定一个唯一的IP地址，因此，请求消息中的URL并没有传递主机名（hostname）。但随着虚拟主机技术的发展，在一台物理服务器上可以存在多个虚拟主机（Multi-homed Web Servers），并且它们共享一个IP地址。因此，Host头的引入就很有必要了。
+- HTTP/2.0
+- HTTP/3.0
+  - 基于 UDP 传输协议（前四个版本是基于 TCP 传输协议）
+  - QUIC协议：基于 UDP 实现了类似 TCP 的多路数据流、传输可靠性等功能
+    - 实现了类似 TCP 的流量控制、传输可靠性的功能
+    - 集成了 TLS 加密功能
+    - 实现了 HTTP/2.0 中多路复用功能
+      - 不同点是 QUIC 实现了在同一物理连接上有多个独立的逻辑数据流，实现了数据流的单独传输，解决了TCP中队头阻塞的问题
+    - 实现了快速握手功能
+      - QUIC 是基于 UDP 的，所以 QUIC 可以实现使用 0-RTT 或者 1-RTT 来建立连接
+  - 目前没有广泛应用的原因
+    - 服务器和浏览器都没有对 HTTP/3.0 提供比较完成的支持
+    - 部署 HTTP/3.0 也存在非常大的问题，因为系统对 UDP 优化还不是很好
+    - 中间设备僵化问题，这些设备对 UDP 的优化程序远低于 TCP
+
+- 文献
+  - [六张图从HTTP/0.9进化到HTTP3.0](https://juejin.cn/post/6856036933723521032)
+  - [HTTP协议几个版本的比较](https://www.jianshu.com/p/bcff7c252114)
+  - [http协议各个版本](
