@@ -1,0 +1,4 @@
+- 文献
+  - [HTTP----HTTP缓存机制](https://juejin.cn/post/6844903517702848526)
+  - [从前端角度理解缓存](https://juejin.cn/post/6844903762918637576)
+  - [浏览器HTTP缓存机制](https://juejin.cn/post/6844903554587574285)
