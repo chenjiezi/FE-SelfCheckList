@@ -46,6 +46,9 @@
 ### 网络协议
 - OSI模型、TCP/IP模型分别由哪些分层组成
 - HTTP
+  - [常见HTTP状态码](./HTTP/HTTP状态码.md)
+  - [HTTP0.9、HTTP1.0、HTTP1.1、HTTP2.0和HTTP3.0的区别](./HTTP/HTTP版本.md)
+  - [HTTP缓存机制](./HTTP/HTTP缓存.md)
   - HTTP 报文结构
   - HTTP 首部字段
   - HTTP 方法
@@ -53,7 +56,6 @@
   - 304状态码
   - GEI 和 POST 有什么区别
   - HTTP 与 HTTPS 的区别及实现方式
-  - HTTP1.0、HTTP1.1和HTTP2.0的区别
   - HTTP 建立持久连接的意义
   - Cookie、Session 和 Token
   - Cookie 相关首部字段
