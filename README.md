@@ -7,18 +7,21 @@
 - [new 操作符](./JAVASCRIPT/new操作符.md)
 - [this 指向](./JAVASCRIPT/this指向.md)
 - [原型与原型链](./JAVASCRIPT/原型与原型链.md)
-- [继承](./JAVASCRIPT/继承.md)
-- [内存泄露、垃圾回收机制](./JAVASCRIPT/内存泄露、垃圾回收机制.md)
+- [继承](./JAVASCRIPT/继承.md)（未）
+- [内存泄露、垃圾回收机制](./JAVASCRIPT/内存泄露、垃圾回收机制.md)（未）
 - [事件循环](./JAVASCRIPT/EventLoop.md)
 - [事件、事件委托](./JAVASCRIPT/事件、事件委托.md)
 - [普通函数与箭头函数的区别](./JAVASCRIPT/普通函数与箭头函数的区别.md)
 - [var、let 和 const 的区别](./JAVASCRIPT/var、let、const的区别.md)
-- [0.1 + 0.2 === 0.3 返回 false](./JAVASCRIPT/0.1+0.2===0.3返回false.md)
+- [0.1 + 0.2 === 0.3 返回 false](./JAVASCRIPT/0.1+0.2===0.3返回false.md) （未）
 - [defer 与 async 的区别](./JAVASCRIPT/defer与async的区别.md)
 - 其他
   - 跨域
   - 模块化
+  - 浏览器兼容
+    - 事件绑定兼容IE
   - 性能优化
+    - 事件代理
   - 前端安全
 - 手撕代码 
   - 数组去重、扁平
@@ -61,10 +64,12 @@
   - Cookie 相关首部字段
   - localStorage、sessionStorage、Cookie
 - TCP/UDP
-  - TCP 和 UDP 有什么区别
-  - TCP 三次握手和四次挥手机制以及原因
-  - TCP 通过哪些方式来保证可靠性
-  - TCP 的流量控制机制
+  - [TCP 和 UDP 有什么区别](./网络协议/TCP和UDP有什么区别.md)
+  - [TCP 三次握手和四次挥手机制以及原因](./网络协议/TCP三次握手和四次挥手机制以及原因.md)
+  - [TCP 通过哪些方式来保证可靠性](./网络协议/TCP如何保证可靠性.md)
+  - [TCP 流量控制](./网络协议/TCP流量控制.md)
+  - [TCP 拥塞控制](./网络协议/TCP拥塞控制.md)
+  - [流量控制和拥塞控制的区别](./网络协议/流量控制和拥塞控制的区别.md)
 ### 数据结构与算法
 - 数组与链表有什么优缺点
 - 排序

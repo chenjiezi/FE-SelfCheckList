@@ -29,4 +29,4 @@
 - 文献
   - [六张图从HTTP/0.9进化到HTTP3.0](https://juejin.cn/post/6856036933723521032)
   - [HTTP协议几个版本的比较](https://www.jianshu.com/p/bcff7c252114)
-  - [http协议各个版本](
+  - [http协议各个版本](https://blog.csdn.net/qq_22238021/article/details/81197157)
