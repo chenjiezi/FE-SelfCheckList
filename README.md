@@ -25,7 +25,7 @@
   - 前端安全
 - 手撕代码 
   - 数组去重、扁平
-  - 手写 instanceOf
+  - [手写 instanceOf](./JAVASCRIPT/手写instanceof.md)
   - [手写 call、apply、bind](./JAVASCRIPT/call、apply、bind.md)
   - 防抖、节流
   - 浅拷贝、深拷贝
@@ -55,7 +55,6 @@
   - HTTP 报文结构
   - HTTP 首部字段
   - HTTP 方法
-  - 常见的 HTTP 状态码
   - 304状态码
   - GEI 和 POST 有什么区别
   - HTTP 与 HTTPS 的区别及实现方式
