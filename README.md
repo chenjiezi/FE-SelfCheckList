@@ -50,7 +50,7 @@
 - OSI模型、TCP/IP模型分别由哪些分层组成
 - HTTP
   - [常见HTTP状态码](./HTTP/HTTP状态码.md)
-  - [HTTP0.9、HTTP1.0、HTTP1.1、HTTP2.0和HTTP3.0的区别](./HTTP/HTTP版本.md)
+  - [HTTP版本](./HTTP/HTTP版本.md)
   - [HTTP缓存机制](./HTTP/HTTP缓存.md)
   - HTTP 报文结构
   - HTTP 首部字段
