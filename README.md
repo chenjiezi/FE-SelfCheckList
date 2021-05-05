@@ -48,6 +48,19 @@
 - grid 布局
 ### 网络协议
 - OSI模型、TCP/IP模型分别由哪些分层组成
+  - OSI模型
+    - 应用层
+    - 表示层
+    - 会话层
+    - 传输层
+    - 网络层
+    - 数据链路层
+    - 物理层
+  - TCP/IP模型
+    - 应用层
+    - 传输层
+    - 网络层
+    - 链路层
 - HTTP
   - [HTTP重点知识汇总](https://www.nowcoder.com/discuss/634359?channel=-1&source_id=profile_follow_post_nctrack)
   - [常见HTTP状态码](./网络协议/HTTP状态码.md)
