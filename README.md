@@ -49,9 +49,9 @@
 ### 网络协议
 - OSI模型、TCP/IP模型分别由哪些分层组成
 - HTTP
-  - [常见HTTP状态码](./HTTP/HTTP状态码.md)
-  - [HTTP版本](./HTTP/HTTP版本.md)
-  - [HTTP缓存机制](./HTTP/HTTP缓存.md)
+  - [常见HTTP状态码](./网络协议/HTTP状态码.md)
+  - [HTTP版本](./网络协议/HTTP版本.md)
+  - [HTTP缓存机制](./网络协议/HTTP缓存.md)
   - HTTP 报文结构
   - HTTP 首部字段
   - HTTP 方法
