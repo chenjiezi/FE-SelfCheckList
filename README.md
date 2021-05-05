@@ -49,19 +49,21 @@
 ### 网络协议
 - OSI模型、TCP/IP模型分别由哪些分层组成
 - HTTP
+  - [HTTP重点知识汇总](https://www.nowcoder.com/discuss/634359?channel=-1&source_id=profile_follow_post_nctrack)
   - [常见HTTP状态码](./网络协议/HTTP状态码.md)
   - [HTTP版本](./网络协议/HTTP版本.md)
   - [HTTP缓存机制](./网络协议/HTTP缓存.md)
-  - HTTP 报文结构
-  - HTTP 首部字段
-  - HTTP 方法
-  - 304状态码
   - GEI 和 POST 有什么区别
+    - get 是从指定的资源请求数据，post 是向指定的资源提交要处理的数据
+    - get 请求可以被缓存，post 请求不会被缓存
+    - get 请求传输的数据有长度限制，一般为 2048 字符，post 请求传输的数据没有大小限制
+    - get 请求的数据一般追加在 URL 的末尾，post 请求的数据在 http 请求体中
+    - 一般不使用 GET 请求发送如密码这样的敏感信息。我认为 get 请求比 post 请求更安全。
   - HTTP 与 HTTPS 的区别及实现方式
-  - HTTP 建立持久连接的意义
-  - Cookie、Session 和 Token
-  - Cookie 相关首部字段
-  - localStorage、sessionStorage、Cookie
+    1. HTTP 是超文本传输协议，信息是明文传输，存在安全风险的问题。HTTPS 则解决HTTP 不安全的缺陷，在 TCP 和 HTTP 网络层之间加入了 SSL/TLS 安全协议，使得
+    报文能够加密传输。
+    2. HTTP ：TCP 三次握手之后便可进行 HTTP 的报文传输。而 HTTPS 在 TCP三次握手之后，还需进行 SSL/TLS 的握手过程，才可进入加密报文传输。
+    3. HTTP 的端口号是 80，HTTPS 的端口号是 443。 4. HTTPS 协议需要向 CA（证书权威机构）申请数字证书，来保证服务器的身份是可信的。
 - TCP/UDP
   - [TCP 和 UDP 有什么区别](./网络协议/TCP和UDP有什么区别.md)
   - [TCP 三次握手和四次挥手机制以及原因](./网络协议/TCP三次握手和四次挥手机制以及原因.md)
