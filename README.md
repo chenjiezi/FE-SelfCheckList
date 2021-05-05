@@ -7,8 +7,8 @@
 - [new 操作符](./JAVASCRIPT/new操作符.md)
 - [this 指向](./JAVASCRIPT/this指向.md)
 - [原型与原型链](./JAVASCRIPT/原型与原型链.md)
-- [继承](./JAVASCRIPT/继承.md)（未）
-- [内存泄露、垃圾回收机制](./JAVASCRIPT/内存泄露、垃圾回收机制.md)（未）
+- [继承](./JAVASCRIPT/继承.md)
+- [内存泄露、垃圾回收机制](./JAVASCRIPT/内存泄露、垃圾回收机制.md)
 - [事件循环](./JAVASCRIPT/EventLoop.md)
 - [事件、事件委托](./JAVASCRIPT/事件、事件委托.md)
 - [普通函数与箭头函数的区别](./JAVASCRIPT/普通函数与箭头函数的区别.md)
