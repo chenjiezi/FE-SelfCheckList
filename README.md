@@ -16,7 +16,7 @@
 - [0.1 + 0.2 === 0.3 返回 false](./JAVASCRIPT/0.1+0.2===0.3返回false.md) （未）
 - [defer 与 async 的区别](./JAVASCRIPT/defer与async的区别.md)
 - 其他
-  - 跨域
+  - [跨域]((./OTHER/跨域.md))
   - 模块化
   - 浏览器兼容
     - 事件绑定兼容IE
