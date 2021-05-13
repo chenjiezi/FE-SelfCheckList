@@ -18,10 +18,10 @@
 - 其他
   - [跨域](./OTHER/跨域.md)
   - 模块化
-  - 浏览器兼容
-    - 事件绑定兼容IE
   - 性能优化
   - 前端安全
+  - 浏览器兼容
+    - 事件绑定兼容IE
 - 手撕代码 
   - [数组去重、扁平](./JAVASCRIPT/数组去重扁平.md)
   - [手写 instanceOf](./JAVASCRIPT/手写instanceof.md)
