@@ -24,12 +24,12 @@
     - 事件代理
   - 前端安全
 - 手撕代码 
-  - 数组去重、扁平
+  - [数组去重、扁平](./JAVASCRIPT/数组去重扁平.md)
   - [手写 instanceOf](./JAVASCRIPT/手写instanceof.md)
   - [手写 call、apply、bind](./JAVASCRIPT/call、apply、bind.md)
-  - 防抖、节流
-  - 浅拷贝、深拷贝
-  - 函数柯里化
+  - [防抖、节流](./JAVASCRIPT/防抖节流.md)
+  - [浅拷贝、深拷贝](./JAVASCRIPT/浅拷贝深拷贝.md)
+  - [函数柯里化](./JAVASCRIPT/函数柯里化.md)
   - 手写 ajax
   - 手写 EventEmitter
   - 手写 Promise
