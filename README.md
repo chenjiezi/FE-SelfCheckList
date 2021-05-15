@@ -13,11 +13,11 @@
 - [事件、事件委托](./JAVASCRIPT/事件、事件委托.md)
 - [普通函数与箭头函数的区别](./JAVASCRIPT/普通函数与箭头函数的区别.md)
 - [var、let 和 const 的区别](./JAVASCRIPT/var、let、const的区别.md)
-- [0.1 + 0.2 === 0.3 返回 false](./JAVASCRIPT/0.1+0.2===0.3返回false.md) （未）
+- [0.1 + 0.2 === 0.3 返回 false](./JAVASCRIPT/0.1+0.2===0.3返回false.md)
 - [defer 与 async 的区别](./JAVASCRIPT/defer与async的区别.md)
 - 其他
   - [跨域](./OTHER/跨域.md)
-  - 模块化
+  - [模块化](./OTHER/模块化.md)
   - 性能优化
   - 前端安全
   - 浏览器兼容
@@ -43,6 +43,8 @@
 - 水平垂直居中
 - 两列布局(左固定、右自适应)
 - 三列布局(圣杯布局、双飞翼布局)
+- 定位五个属性
+- flex:1
 - flex 布局
 - grid 布局
 ### 网络协议
