@@ -20,8 +20,7 @@
   - [模块化](./OTHER/模块化.md)
   - [性能优化](./OTHER/性能优化.md)
   - [前端安全](./OTHER/前端安全.md)
-  - 浏览器兼容
-    - 事件绑定兼容IE
+  - [浏览器兼容](./OTHER/浏览器兼容.md)
 - 手撕代码 
   - [数组去重、扁平](./JAVASCRIPT/数组去重扁平.md)
   - [手写 instanceOf](./JAVASCRIPT/手写instanceof.md)
