@@ -31,9 +31,6 @@
   - [手写 ajax](./JAVASCRIPT/手写ajax.md)
   - 手写 EventEmitter
   - 手写 Promise
-- 程序分析题
-  - 变量提升
-  - 事件循环
 ### HTML/CSS
 - 绘画
 - 动画
