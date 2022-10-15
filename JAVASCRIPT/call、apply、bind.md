@@ -77,16 +77,7 @@ Function.prototype.bind2 = function (context) {
     fBound.prototype = new fNOP();
     return fBound;
 }
-// bind(ES6)
-Function.prototype.bind2 = function(context, ...rest) {
-    let self = this
-    return function F(...args) {
-        if (this instanceof F) {
-            return new self(...rest, ...args)
-        }
-        return self.apply(context, rest.concat(args))
-    }
-}
+
 // test
 var foo = { value : 1};
 
@@ -96,7 +87,7 @@ var bar = function (name, age) {
     console.log('age:', age);
 }
 
-var zoo = bar.bind2(foo, 'koo');
+var zoo = bar.bind(foo, 'koo');
 
 var a = new zoo(18);
 
