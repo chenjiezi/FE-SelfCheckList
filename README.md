@@ -39,11 +39,6 @@
 - [两列布局(左固定、右自适应)](./CSS/两列布局.md)
 - [三列布局(圣杯布局、双飞翼布局)](./CSS/三列布局.md)
 - [定位五个属性](https://www.ruanyifeng.com/blog/2019/11/css-position.html)
-- flex: 1
-- flex 布局
-- grid 布局
-- 绘画
-- 动画
 ### 网络协议
 - [OSI模型、TCP/IP模型分别由哪些分层组成](./网络协议/OSI模型TCPIP模型.md)
 - HTTP
