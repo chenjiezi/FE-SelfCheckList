@@ -1,5 +1,7 @@
 # 前端-自检清单
 
+### Vue
+- [Vue key](#Vue key)
 ### JAVASCRIPT
 - [js中的数据类型](./JAVASCRIPT/js中的数据类型.md)
 - [执行上下文和执行栈](./JAVASCRIPT/执行上下文和执行栈.md)
@@ -86,3 +88,10 @@
 
 #### node的事件循环
 node的事件循环
+
+#### Vue key
+Vue key
+https://juejin.cn/post/7102219080152645668
+
+#### diff算法
+https://github.com/chenhongdong/article/tree/develop/%E8%99%9A%E6%8B%9Fdom/dom-diff
