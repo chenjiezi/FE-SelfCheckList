@@ -13,9 +13,9 @@
     - JavaScript 单线程任务被分为**同步任务**和**异步任务**，同步任务会在调用栈中按照顺序等待主线程依次执行，异步任务会在异步任务有了结果后，将注册的回调函数放入任务队列中等待主线程空闲时候（调用栈被清空),被读取到栈内等待主线程的执行。
   - 在`JavaScript`中，异步任务被分为两种，一种宏任务（`MacroTask`），一种叫微任务（`MicroTask`）；微任务的优先级要比宏任务的优先级高，也就是说微任务要先执行，然后在执行宏任务。
     - 宏任务（Macro Task）
-      -  script标签中包含整体的代码块、setTimeout、setInterval、setImmediate（仅IE10支持）、I/O（文件读写、ajax操作）、UI Rendering
+      -  script标签中包含整体的代码块、setTimeout、setInterval、setImmediate
     - 微任务（Micro Task）
-      - Promise、Node独有的Process.nextTick、Object.observe（废弃）、Mutation Observer（监听DOM变化的事件）
+      - Promise、Mutation Observer（监听DOM变化的事件）
   - 事件循环的执行过程
     - 执行栈在执行完**同步任务**后，会查看执行栈是否为空，如果执行栈为空，就会去检查**微任务队列**是否为空，如果不为空，就将微任务队列中的所有微任务一次性执行；如果为空，就执行宏任务；
     - 每次当**宏任务**执行完毕后，检查**微任务队列**是否为空，如果不为空的话，会按照先进先出的规则全部执行完微任务，再进入下轮循环，执行宏任务，直到微任务队列和宏任务队列都为空
