@@ -32,8 +32,8 @@
   - [浅拷贝、深拷贝](./JAVASCRIPT/浅拷贝深拷贝.md)
   - [函数柯里化](./JAVASCRIPT/函数柯里化.md)
   - [手写 ajax](./JAVASCRIPT/手写ajax.md)
-  - 手写 EventEmitter
   - 手写 Promise
+  - [手写 EventEmitter](./JAVASCRIPT/手写EventEmitter.md)
 ### HTML/CSS
 - HTML5/CSS3新特性
 - [盒模型](./CSS/盒模型.md)
