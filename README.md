@@ -37,6 +37,7 @@
   - [手写 Promise Api](./JAVASCRIPT/手写promiseApi.md)
 ### HTML/CSS
 - HTML5/CSS3新特性
+- 重绘、回流
 - [盒模型](./CSS/盒模型.md)
 - [BFC](./CSS/BFC.md)
 - [水平垂直居中](./CSS/水平垂直居中.md)
