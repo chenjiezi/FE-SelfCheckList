@@ -1,7 +1,6 @@
 # 前端-自检清单
 
-### Vue
-- [Vue key](#Vue key)
+
 ### JAVASCRIPT
 - [js中的数据类型](./JAVASCRIPT/js中的数据类型.md)
 - [执行上下文和执行栈](./JAVASCRIPT/执行上下文和执行栈.md)
