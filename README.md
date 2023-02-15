@@ -1,6 +1,6 @@
 # Blog
 
-- [基于verdaccio+docker搭建npm私有仓库](https://github.com/chenjiezi/FE-SelfCheckList/issues/2)
+- 2022-12-07 [基于verdaccio+docker搭建npm私有仓库](https://github.com/chenjiezi/FE-SelfCheckList/issues/2)
 
 # 前端自检清单
 
